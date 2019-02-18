@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Pacifico');
+
+* {
+    box-sizing: border-box;
+}
+
+body, input, button {
+    font-family: 'Open Sans', sans-serif;
+}
+
+#root {
+    max-width: 100%;
+    width: 900px;
+    margin: 2em auto;
+    background: white;
+    padding: 1em;
+}
+
+h1 {
+    font-family: 'Pacifico', cursive;
+    color: #1abc9c;
+}
+
+input, button {
+    padding: 0.5em;
+    margin: 2px;
+    display: inline-block;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.19);
+}
+input, button, div#app {
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
+}
+input {
+    border: 2px solid #16a085;
+}
+
+button {
+    background: #16a085;
+    color: #fff;
+    border: none;
+    padding: 0.7em;
+}
+
+button:last-of-type {
+    margin-right: 0;
+}
+
+td:first-of-type {
+    width: 100%;
+}
+th {
+    text-align: left;
+}
+
+th, td {
+    padding: 10px 0;
+    border: 1px solid #ecf0f1;
+    border-collapse: collapse;
+}
+
+table {
+    width: 100%;
+    border: 1px solid #ecf0f1;
+    border-collapse: collapse;
+    }
+
+p.tutorial {
+    padding: 10px;
+    color: #222;
+    background: #ecf0f1;
+    text-align: center;
+}
+
+form.create-user-form {
+    padding: 1em 0;
+    width: 80%;
+}
+
+form.create-user-form input {
+    width: calc(100% - 50px);
+}
+
+
+tr.user-not-trusted td {
+    color: gray;
+}
+
+tr.user-trusted td {
+    background-color: green;
+    color: white;
+}
+
+tr > td:first-of-type {
+    font-size: 1em;
+    padding: 5px;
+}
+th {
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.3em;
+}
+button {
+    cursor: pointer;
+}
+
+tr > td:first-of-type {
+    width: calc(100% - 0px) !important;
+}
+
+tr > td > form > input {
+    width: 100%;
+}
+tr:hover{
+  font-size: 1.1em;
+  color: #5d5d5d;
+}
+.delete-btn, .cancel-btn {
+    background-color: #e74c3c;
+}
+ .headerBar{
+   display: inline-flex;
+   width: 100%;
+   border-bottom: 1px solid #ecf0f1;
+ }
+  .itemBorder {
+    border-bottom: 1px solid #ecf0f1;
+    cursor: pointer;
+  }
+  .listOfUsers {
+    border: 2px solid #16a085;
+    padding: 1em;
+  }
+  .selectList{
+    margin: auto;
+    padding: 0;
+  }
